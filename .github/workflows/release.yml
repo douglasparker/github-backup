@@ -23,8 +23,8 @@ jobs:
 
       - name: Check for the latest stable version
         run: |
-          apt-get update && \
-          apt-get install -y git python3-pip && \
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
           pip install github-backup
 
           FULL_VERSION="$(echo "$(cut -d ':' -f 2 <(echo "$(pip show github-backup | grep "Version")"))")"
