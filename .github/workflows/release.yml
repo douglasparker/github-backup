@@ -31,13 +31,13 @@ jobs:
           FULL_VERSION="$(echo "$FULL_VERSION" | tr -d '[:space:]')"
 
           MAJOR_VERSION="$(echo "$(cut -d '.' -f 1 <(echo "$FULL_VERSION"))")"
-          MAJOR_VERSION="$(echo "$FULL_VERSION" | tr -d '[:space:]')"
+          MAJOR_VERSION="$(echo "$MAJOR_VERSION" | tr -d '[:space:]')"
 
           MINOR_VERSION="$(echo "$(cut -d '.' -f 2 <(echo "$FULL_VERSION"))")"
-          MINOR_VERSION="$(echo "$FULL_VERSION" | tr -d '[:space:]')"
+          MINOR_VERSION="$(echo "$MINOR_VERSION" | tr -d '[:space:]')"
 
           PATCH_VERSION="$(echo "$(cut -d '.' -f 3 <(echo "$FULL_VERSION"))")"
-          PATCH_VERSION="$(echo "$FULL_VERSION" | tr -d '[:space:]')"
+          PATCH_VERSION="$(echo "$PATCH_VERSION" | tr -d '[:space:]')"
 
           echo "FULL_VERSION="$FULL_VERSION"" >> $GITHUB_ENV
           echo "MAJOR_VERSION="$MAJOR_VERSION"" >> $GITHUB_ENV
