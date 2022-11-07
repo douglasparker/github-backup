@@ -63,10 +63,10 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.IMAGE_NAME }}:latest
-            ${{ env.IMAGE_NAME }}:${{ env.MAJOR_VERSION }}
-            ${{ env.IMAGE_NAME }}:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}
             ${{ env.IMAGE_NAME }}:${{ env.FULL_VERSION }}
+            ${{ env.IMAGE_NAME }}:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}
+            ${{ env.IMAGE_NAME }}:${{ env.MAJOR_VERSION }}
+            ${{ env.IMAGE_NAME }}:latest
       
       - name: Update Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
