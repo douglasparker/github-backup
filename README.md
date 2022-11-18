@@ -1,6 +1,6 @@
 # GitHub Backup
 
-[![Version](https://img.shields.io/docker/v/douglasparker/github-backup?style=flat-square)](https://hub.docker.com/r/douglasparker/github-backup)
+[![Version](https://img.shields.io/docker/v/douglasparker/github-backup?style=flat-square&sort=semver)](https://hub.docker.com/r/douglasparker/github-backup)
 [![Docker Pulls](https://img.shields.io/docker/pulls/douglasparker/github-backup?style=flat-square)](https://hub.docker.com/r/douglasparker/github-backup)
 [![Image Size](https://img.shields.io/docker/image-size/douglasparker/github-backup?style=flat-square)](https://hub.docker.com/r/douglasparker/github-backup)
 [![License](https://img.shields.io/github/license/douglasparker/github-backup?style=flat-square)](https://github.com/douglasparker/github-backup/blob/main/LICENSE.md)
