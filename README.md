@@ -1,8 +1,8 @@
 # GitHub Backup
 
-[![Version](https://img.shields.io/docker/v/douglasparker/github-backup?style=flat-square&sort=semver)](https://hub.docker.com/r/douglasparker/github-backup)
-[![Docker Pulls](https://img.shields.io/docker/pulls/douglasparker/github-backup?style=flat-square)](https://hub.docker.com/r/douglasparker/github-backup)
-[![Image Size](https://img.shields.io/docker/image-size/douglasparker/github-backup?style=flat-square)](https://hub.docker.com/r/douglasparker/github-backup)
-[![License](https://img.shields.io/github/license/douglasparker/github-backup?style=flat-square)](https://github.com/douglasparker/github-backup/blob/main/LICENSE.md)
+> [!WARNING]
+> This docker image is no longer maintained.
+>
+> The official repository now provides a [docker image](https://ghcr.io/josegonzalez/python-github-backup).
 
 A docker image for the [GitHub Backup](https://github.com/josegonzalez/python-github-backup) tool created by [Jose Diaz-Gonzalez](https://github.com/josegonzalez).
